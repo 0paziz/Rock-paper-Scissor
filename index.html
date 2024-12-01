@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Sacramento&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Rock Paper Scissors Game!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> <h1>Rock Paper Scissors Game !</h1> </header>
+    <h2>Choose:</h2>
+        <div class="container">
+         
+           <div class="rock"> <img id="rock" src="/images/rock.png" >
+            <p style="text-align: center;">Rock</p> 
+        </div>
+
+           <div class="paper"> <img id="paper" src="/images/papper.png" > 
+            <p style="text-align: center;">Paper</p> 
+           </div>
+
+           <div class="scissor"> <img id="scissor" src="/images/scissors.png" > 
+            <p style="text-align: center;">Scissor</p> 
+           </div>
+    
+    </div>
+   
+
+    <div class="result">
+
+        <h3 id="result"></h3>
+</div>
+
+<div class="scores">
+
+    <h3 >You Score:<span id="userScore" style="color: rgb(255, 0, 0);">0</span></h3>
+    <h3 >Computer Score:<span id="ComputerScore" style="color: rgb(102, 255, 0);">0</span></h3>
+</div>
+
+
+<script lang="javascript" src="game.js"></script>
+</body>
+</html>
